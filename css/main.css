@@ -1,0 +1,94 @@
+.wrapper {
+  height: 100vh;
+  background-image: url(../img/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  transition: all .5s; }
+  .wrapper .mainContainer {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 25px; }
+    .wrapper .mainContainer .mainBlockButton {
+      background-color: #333;
+      margin-right: 25px;
+      height: 135px;
+      width: 195px;
+      border: 1px solid #fff;
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      padding: 20px;
+      transition: all .5s; }
+      .wrapper .mainContainer .mainBlockButton .pick {
+        height: 130px;
+        width: 130px;
+        border: 5px solid #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: -65px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        background-size: 280px;
+        background-repeat: no-repeat;
+        transition: all 2s; }
+      .wrapper .mainContainer .mainBlockButton .desc {
+        font-size: 20px;
+        text-align: center;
+        color: #fff; }
+    .wrapper .mainContainer .mainBlockButton:last-child {
+      margin-right: 0; }
+    .wrapper .mainContainer #hipster {
+      background-color: #09646D; }
+      .wrapper .mainContainer #hipster .pick {
+        background-image: url(../img/1.png);
+        background-position: -40px 0; }
+    .wrapper .mainContainer #lips {
+      background-color: #EA0039; }
+      .wrapper .mainContainer #lips .pick {
+        background-image: url(../img/2.png);
+        background-position: -35px 0; }
+    .wrapper .mainContainer #eat {
+      background-color: #67B377; }
+      .wrapper .mainContainer #eat .pick {
+        background-size: 450px;
+        background-image: url(../img/3.png);
+        background-position: -45px 0; }
+    .wrapper .mainContainer #hair {
+      background-color: #E5664D; }
+      .wrapper .mainContainer #hair .pick {
+        background-image: url(../img/4.png);
+        background-position: -340px -60px;
+        background-size: 800px; }
+    .wrapper .mainContainer #cloud {
+      background-color: #E5005F; }
+      .wrapper .mainContainer #cloud .pick {
+        background-image: url(../img/5.png);
+        background-position: -20px 0;
+        background-size: 250px; }
+    .wrapper .mainContainer #hipster:hover .pick {
+      transform: rotateX(360deg);
+      transition: all 2s; }
+    .wrapper .mainContainer #lips:hover .pick {
+      transform: rotateX(360deg);
+      transition: all 2s; }
+    .wrapper .mainContainer #eat:hover .pick {
+      transform: rotateX(360deg);
+      transition: all 2s; }
+    .wrapper .mainContainer #hair:hover .pick {
+      transform: rotateX(360deg);
+      transition: all 2s; }
+    .wrapper .mainContainer #cloud:hover .pick {
+      transform: rotateX(360deg);
+      transition: all 2s; }
+    .wrapper .mainContainer .mainBlockButton:hover {
+      cursor: pointer; }
+
+body {
+  padding: 0;
+  margin: 0; }
